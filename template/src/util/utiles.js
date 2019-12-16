@@ -1,3 +1,4 @@
+/* eslint-disable */
 const getCookiValue = (name) => {
   if (!document.cookie.trim().length) {
     return null;

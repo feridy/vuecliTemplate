@@ -1,11 +1,4 @@
-/* eslint-disable eqeqeq */
-/* eslint-disable no-shadow */
-/* eslint-disable prefer-rest-params */
-/* eslint-disable guard-for-in */
-/* eslint-disable no-restricted-syntax */
-/**
- * cache
- */
+/* eslint-disable */
 const ls = window.localStorage;
 const ss = window.sessionStorage;
 
