@@ -1,0 +1,22 @@
+// 多行文本溢出显示省略号
+// -----------------------------------------------------------------------------
+.line-clamp(@line: 2, @line-height: 0.38rem) {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: @line;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  line-height: @line-height;
+  max-height: @line-height * @line + 0.2rem;
+}
+
+// 单行文本溢出显示省略号
+// -----------------------------------------------------------------------------
+.text-overflow(@align: justify) {
+  word-wrap: normal;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: @align;
+}
